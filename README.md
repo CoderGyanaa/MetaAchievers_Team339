@@ -1,198 +1,73 @@
-# 🚀 SkillBridge 
-### Empowering Careers with AR/VR, AI and immersive Technologies
+# Welcome to your Lovable project
 
-[![Infosys](https://img.shields.io/badge/Powered%20by-Infosys-blue.svg)](https://www.infosys.com/) 
-[![TechForGood](https://img.shields.io/badge/%23TechForGood-Global%20Initiative-green)](https://github.com/Infosys-Global-Hackathon/GlobalHackathonSample) 
-[![SDG](https://img.shields.io/badge/UN-SDGs%20Focused-orange)](https://sdgs.un.org/) 
-[![Use Template](https://img.shields.io/badge/Use%20This-Template-success)](https://github.com/Infosys-Global-Hackathon/GlobalHackathonSample/generate)
+## Project info
 
-> Code for a cause. Build for the world.  
-> Project submitted for the Infosys Global Hackathon 2025.
+**URL**: https://lovable.dev/projects/e6396e04-0706-48a7-9d2d-05ebf54ade5c
 
----
+## How can I edit this code?
 
-## 🎯 Overview
+There are several ways of editing your application.
 
-### 🌍 SDG Challenge Addressed
+**Use Lovable**
 
+Simply visit the [Lovable Project](https://lovable.dev/projects/e6396e04-0706-48a7-9d2d-05ebf54ade5c) and start prompting.
 
-- *SDG 4: Quality Education*  
-  EduVerse AI enhances accessibility to quality education through immersive AR/VR learning environments, personalized AI-guided study paths, and virtual labs—making interactive, practical education available to all, regardless of location or background.
+Changes made via Lovable will be committed automatically to this repo.
 
-- *SDG 8: Decent Work and Economic Growth*  
-  By offering AI-powered resume analysis, real-time skill assessments, company-aligned evaluations, and direct job matching based on user performance, EduVerse AI promotes inclusive employment opportunities and helps bridge the skill gap for sustainable economic growth.
+**Use your preferred IDE**
 
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-Traditional education systems struggle to offer personalized guidance, immersive learning, or seamless transition into employment. Our solution addresses these limitations using AI and immersive technologies.
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
----
+Follow these steps:
 
-### 💡 The Solution – SkillBridge Nexus
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
-SkillBridge is a unified platform that integrates:
-- AR/VR-based education labs and classrooms
-- AI-powered Resume Builder (GROQ, Gemini, OpenAI)
-- AI Job Match Analyzer
-- Certification modules
-- Company-led assessments
-- Job matching engine based on AI-assessed scores
-- AI-generated personalized roadmaps for careers
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
----
+# Step 3: Install the necessary dependencies.
+npm i
 
-### 📈 Impact Statement
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
+```
 
-- 🎯 Target Beneficiaries: Students, upskillers, job-seekers, educational institutions
-- 📊 Expected Outcomes:
-  - 60% improvement in placement readiness
-  - 45% increase in skills-to-job alignment
-  - 70% higher resume scores (after AI enhancement)
-- 📈 Key Metrics:
-  - Number of resumes evaluated
-  - Courses completed and certified
-  - AI-assessed employability score
-- 🌱 Long-term Vision: National skill development integration, VR labs in remote schools, B2B onboarding with hiring companies
+**Edit a file directly in GitHub**
 
----
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
-## ⚙ Technical Implementation
+**Use GitHub Codespaces**
 
-### 🧰 Technology Stack
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-| Category | Tech Stack | Purpose |
-|---------|------------|---------|
-| Frontend | React.js, TailwindCSS | UI, dashboards |
-| Backend | Node.js, Flask | Core APIs, microservices |
-| AI Models | OpenAI (GPT-3.5), Gemini Pro, GROQ | Resume analysis, job fitment |
-| AR/VR | Unity3D, WebXR | Virtual labs and simulations |
-| Database | MongoDB | Resume/Course/User Data |
-| Auth | JWT | Secure login and role access |
-| Others | Streamlit, GitHub Actions | Modular frontend tools & CI/CD |
+## What technologies are used for this project?
 
----
+This project is built with:
 
-### 🧠 System Architecture
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
 
+## How can I deploy this project?
 
+Simply open [Lovable](https://lovable.dev/projects/e6396e04-0706-48a7-9d2d-05ebf54ade5c) and click on Share -> Publish.
 
----
+## Can I connect a custom domain to my Lovable project?
 
-## 🚀 Core Components
+Yes, you can!
 
-### 🔧 Working Prototype
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
-- 🌐 Live Link: Coming Soon  
-- 🎨 UI Features:
-  - Resume Builder w/ AI Suggestions
-  - VR-based Lab Experience
-  - Real-time Job Fit Score
-  - Certification and Roadmap Panel
-- 🎥 Demo Video: [Watch Demo](#)
-
----
-
-### 📚 Documentation
-
-| Document | Description                                |Link                    |
-|----------|--------------------------------------------|------------------------|
-| 🏗 System Design | Full architecture & flow           | ./docs/architecture.md |
-| 📡 API Docs | All available endpoints                | ./docs/api             |
-| ⚙ Deployment Guide | Local & Cloud setup             | ./docs/deployment.md   |
-| 👤 User Manual | Navigation for students & companies | ./docs/user-guide.md   |
-| 🛠 Dev Guide | For contributors & testing             | ./CONTRIBUTING.md      |
-
----
-
-## 📊 Impact Metrics
-
-### 🔢 Quantitative
-
-- ✅ 1000+ Resumes Built in pilot phase  
-- 📈 Avg Resume Score improved by 30%  
-- 🧪 VR Classes increased science retention by 40%  
-- 🌐 Pilot tested across 3 Indian states  
-
-### 💬 Qualitative
-
-- Students found personalized roadmaps highly motivating  
-- Institutions reported smoother placement workflows  
-- Companies used assessment scores to shortlist candidates efficiently  
-
----
-
-## 🔍 Use Cases
-
-1. College Career Centers  
-   - AI career mentor, resume boosting, mock interviews
-
-2. High Schools with No Labs  
-   - VR-based science/engineering simulations
-
-3. Corporate Recruiters  
-   - Candidate scorecards, project certification check
-
-4. Training Institutes  
-   - Certifier tools to verify and validate skill progression
-
-5. Remote Learners  
-   - AI-generated personalized roadmap based on goals and current skills
-
----
-
-## 🔮 Future Scope
-
-- 🧠 AI-powered mock interview with auto-feedback  
-- 🧪 VR industry visit modules for exposure  
-- 📊 Admin dashboards for institutions  
-- 🌍 Regional language expansion  
-- 🤝 Recruiter API for auto-onboarding
-
----
-
-## 📦 Installation & Setup
-
-bash
-# Clone the repo
-git clone https://github.com/Arvindsahu66/MetaAchievers_339_ArVr.git
-cd MetaAchievers_339_ArVr
-
-
-
----
-
-## ✨ Contributors
-
-| Name | Role | GitHub |
-|------|-------------|-----------------|
-| Arvind Kumar Sahu] | VR/AR Developer | https://github.com/Arvindsahu66 |
-| Saumik Chakraborty | AI ML Developer  | https://github.com/Saumik17rkl |
-| Debadatta Rout | Frontend UI/UX| [[GitHub]](https://github.com/Debadatta22) |
-|Gyana Ranjan | Backen Dev | https://github.com/CoderGyanaa |
-
----
-
-## 🙏 Acknowledgments
-
-- Infosys Global Hackathon 2025  
-- OpenAI, Google, GROQ – API & LLM support  
-- Unity - AR/VR, C#, AR foundation, XR Interaction 
-- Web development - Bootstrap5.0, Typescript, React.js, Node.js, Flask
-
-
----
-
-## 📜 License
-
-Apache License 2.0. See [LICENSE](./LICENSE) file.
-
----
-
-## 📧 Contact & Support
-
-- 📮 [Create GitHub Issue](https://github.com/Arvindsahu66/MetaAchievers_339_ArVr/issues/new)  
-- 💬 [GitHub Discussions](https://github.com/Arvindsahu66/MetaAchievers_339_ArVr/discussions)
-
----
-
-> SkillBridge  – Empowering careers with intelligence, immersion, and innovation.# MetaAchievers_339_ArVr
-SkillBridge offers immersive AR/VR labs for practical, risk-free training. Our AR features machinery simulations with a Meta Human guide. The VR component includes real-time feedback interview simulations, server room training, and detailed modules for assembling and disassembling various engines, including 2-stroke, 4-stroke, V8, and several pneumatic engine types.
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
