@@ -168,7 +168,7 @@ cd MetaAchievers_339_ArVr
 | Arvind Kumar Sahu] | VR/AR Developer | https://github.com/Arvindsahu66 |
 | Saumik Chakraborty | AI ML Developer  | https://github.com/Saumik17rkl |
 | Debadatta Rout | Frontend UI/UX| [[GitHub]](https://github.com/Debadatta22) |
-|Gyana Ranjan | Backen Dev | https://github.com/CoderGyanaa |
+|Gyana Ranjan Sahoo | Backen Dev | https://github.com/CoderGyanaa |
 
 ---
 
